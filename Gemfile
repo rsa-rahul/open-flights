@@ -25,6 +25,7 @@ gem 'graphql'
 gem 'graphql-batch'
 gem 'graphiql-rails', group: :development
 gem 'pry'
+gem 'nokogiri', '>=1.8.5'
 
 group :development, :test do
   gem 'factory_bot_rails'
